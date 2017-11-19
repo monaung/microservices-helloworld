@@ -18,6 +18,7 @@ build:
         name: copy binary
         code: |
           cp -r . $WERCKER_OUTPUT_DIR/app 
+          cp docker_entrypoint.sh . $WERCKER_OUTPUT_DIR/app
           cd $WERCKER_OUTPUT_DIR/app
 deploy:
   steps:
