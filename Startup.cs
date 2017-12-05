@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Http;
 
-namespace Hello_World
+namespace monaung.helloworld
 {
     public class Startup
     {
@@ -17,7 +17,7 @@ namespace Hello_World
         {
             app.Run(async (context)=> {
                 
-                await context.Response.WriteAsync("Hello, world!");
+                await context.Response.WriteAsync("Hello, world!\n");
 
             });
         }

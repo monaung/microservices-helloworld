@@ -3,9 +3,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 
-namespace Hello_World
+namespace monaung.helloworld
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
