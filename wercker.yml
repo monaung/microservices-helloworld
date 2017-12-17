@@ -25,5 +25,4 @@ deploy:
         username: $USERNAME
         password: $PASSWORD
         repository: monaung/hello-world
-        registry: https://hub.docker.com
         entrypoint: "/pipeline/source/app/docker_entrypoint.sh"
