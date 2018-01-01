@@ -22,7 +22,7 @@ build:
     - script:
         name: chmod
         code: |
-          chmod +x ./docker_entrypoint.sh
+          chmod +x $WERCKER_OUTPUT_DIR/app/docker_entrypoint.sh
 deploy:
   steps:
     - internal/docker-push:
