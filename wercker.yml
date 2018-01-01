@@ -17,7 +17,7 @@ build:
     - script:
         name: publish
         code: |
-          dotnet publish -o publish	 
+          dotnet publish -c Release -o publish	 
     - script:
         name: copy binary
         code: |
