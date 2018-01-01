@@ -30,5 +30,3 @@ deploy:
         password: $PASSWORD
         repository: monaung/hello-world
         entrypoint: "/pipeline/source/app/docker_entrypoint.sh"
-        ports: "80"
-        env: "ASPNETCORE_URLS=http://+:80"
